@@ -22,7 +22,7 @@ img {
 .header {
   display: flex;
   align-items: center;
-  width: 1600px;
+
   padding-left: 215px;
   padding-right: 215px;
   padding-top: 30px;
@@ -32,7 +32,7 @@ img {
 display: flex;
 align-items: center;
 position: absolute;
-width: 1600px;
+max-width: 1200px;
 border: 1px solid #ECECEC;
 }
 .header-div{
@@ -41,6 +41,7 @@ display: flex;
 align-items: center;
 margin-left: 215px;
 margin-right: 215px;
+justify-content: center;
 }
 .button-div{
 display: flex;
@@ -64,7 +65,7 @@ align-items: center;
 .navigation-list-item,.navigation-list-item-port-blue {
   margin-right: 50px;
 }
-.address-above,.address-portfolio {
+.address-portfolio {
     margin-left: 300px;
  
 }
@@ -127,8 +128,8 @@ align-items: center;
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 280px;
-  padding-left: 452px;
-  padding-right: 300px;
+  padding-left: 450px;
+  padding-right: 450px;
 }
 
 .hero-title {
@@ -138,7 +139,7 @@ align-items: center;
   font-size: 44px;
   line-height: 1.363;
   text-align: center;
-  width: 696px;
+  min-width: 696px;
   height: 120px;
   display: flex;
   text-transform: uppercase;
@@ -147,6 +148,8 @@ align-items: center;
   color: #ffffff;
   padding-top: 10px;
   align-items: center;
+  justify-content: center;
+ 
 
   
 }
@@ -155,31 +158,28 @@ align-items: center;
 .work-container {
   display: flex;
   align-items: center;
-    padding-left: 100px;
+  padding-left: 100px;
 
 }
 
 .work-discr-later {
   display: flex;
   list-style: none;
-  
- 
-}
-
+  }
 
 .work-photo-image{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding-left: 215px;
   padding-right: 215px;
   justify-content: center;
   list-style: none;
-  flex-shrink: 1;
+  
 }
 .work-comanda{
   display: flex;
   align-items: center;
-    justify-content: center;
+  justify-content: center;
   list-style: none;
   padding-left: 215px;
   padding-right: 215px;
@@ -201,10 +201,10 @@ align-items: center;
   text-transform: uppercase;
   color: #212121;
   list-style: none;
-  margin-bottom: 10px;}
+  padding-bottom: 10px;}
 
 .idea-work-uni{
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -212,9 +212,8 @@ align-items: center;
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 215px;
-  /*padding-top: 20px;*/
+  padding-left: 215px;
+ 
 }
 
 
@@ -233,18 +232,17 @@ margin-right: 30px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
- /* max-width: 270px;
-  max-height: 75px;*/
+   align-items: center;
+}
+.work-idea-optoins-div
+{ max-width: 270px;
+  min-height: 75px;
   align-items: center;
 }
-.work-idea-optoins-div{ width: 270px;
-  height: 75px;
-  align-items: center;
-}
-.work-footer{margin-top: 20px;
+/*.work-footer{margin-top: 20px;
   margin-left: 215px;
   list-style: none;
-}
+}*/
 
 /*OUR prpcess, our peple*/
 .work-container-prof {
@@ -252,7 +250,7 @@ margin-right: 30px;
   align-items: center;
   margin-left: 215px;
   margin-right: 215px;
-  background color:  #E5E5E5;;
+  background color:  #E5E5E5;
 }
 .work-photo {
   margin-right: 30px;
@@ -260,6 +258,7 @@ margin-right: 30px;
 /* material shadow v1 */
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
 }
 .work-photo-uni{background: #FFFFFF;
 /* material shadow v1 */
@@ -274,8 +273,8 @@ border-radius: 0px 0px 4px 4px;}
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .work-process-comand
@@ -287,8 +286,8 @@ border-radius: 0px 0px 4px 4px;}
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 180px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .name {
@@ -298,8 +297,8 @@ border-radius: 0px 0px 4px 4px;}
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
- 
   color: #212121;
+  padding-top: 30px;
 }
 .professional {
   font-family: "Roboto", sans-serif;
@@ -310,6 +309,8 @@ border-radius: 0px 0px 4px 4px;}
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 /*OUR process, our peple*/
 
@@ -339,8 +340,7 @@ background: #2F303A;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  /*padding-top:  20px;*/
-  margin-top: 20px;
+ 
 }
 /*ADDRESS*/
 .studio {
@@ -410,7 +410,6 @@ background: #2F303A;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
- 
   text-decoration: none;
 }
 .navigation-logo-portfolio{margin-right: 90px;}
@@ -423,7 +422,7 @@ background: #2F303A;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-left: 215px;
+  padding-left: 215px;
   padding-top: 60px;
   
 }
@@ -467,6 +466,7 @@ background: #2F303A;
   text-decoration: none;
 }
 .service {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -483,6 +483,7 @@ background: #2F303A;
 }
 
 .service-button {
+  display: flex;
   position: absolute;
   min-width: 200px;
   height: 50px;
@@ -491,9 +492,8 @@ background: #2F303A;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 150px;
-  /*margin-bottom: 30px;*/
- margin-left: 200px ;
+  margin-top: 150px; 
+  margin-left: 200px ;
 }
 
 .button-service {
@@ -595,22 +595,24 @@ border-radius: 4px;
  list-style-type: none;
  align-items: center;
  margin-top:174px;
- margin-right: 215px;
+ margin-right: 215px;}
+
+ .button-div{margin-top: 100px;}
  
-}
+
 .work-portfolio
 {list-style-type: none;
   display: flex;
   align-items: center;
-  
-  /*margin-top: 260px;*/}
+}
+ 
 .work-portfolio-div{
   display: flex;
   align-items: center;
  
 }
 .work-portfolio-div-img{margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 30px;/*1111111111111*/
   
 }
 .main-work-div{margin-top: 50px;
@@ -626,3 +628,4 @@ margin-top: 95px;
 }
 .address-style-inf-li{padding-top: 9px;}
 .address-style-li{padding-top: 10px;}
+.address-above{margin-left: 60px;}
