@@ -628,7 +628,7 @@ margin-top: 95px;
 .address-above{margin-left: 60px;}
 .our-glass-container
   {display: flex;
-  align-items: center;
-  padding-left: 215px;
    max-width: 1170px;
-   height: 368px;}
+  justify-content:center;
+  padding-left: 215px;
+   }
